@@ -20,3 +20,7 @@ uppercaseButton.addEventListener("click", () => {
 });
 
 const lowercaseButton = document.querySelector('[data-js="button-lowercase"]');
+
+lowercaseButton.addEventListener("click", () =>{
+  input.value = input.value.toLowerCase();
+})
